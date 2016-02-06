@@ -22,4 +22,4 @@ function inception ( callback, value ) {
 	callback( value );
 }
 
-var message = inception( 'Box Trolls is a fantastic movie.' );
+console.log( inception( 'Box Trolls is a fantastic movie.' ) );
