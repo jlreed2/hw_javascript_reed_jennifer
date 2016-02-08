@@ -14,9 +14,9 @@ var numba = function( string ) {
 	}
 };
 
-string( 7 );
-string( 'seventy' );
-string( 'university' );
+numba( '7' );
+numba( 'seventy' );
+numba( 'university' );
 
 function inception ( callback, value ) {
 	callback( value );
