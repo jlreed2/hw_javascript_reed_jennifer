@@ -22,4 +22,8 @@ function inception ( callback, value ) {
 	callback( value );
 }
 
+function logMe( message ) {
+	console.log( message );
+}
+
 console.log( inception( 'Box Trolls is a fantastic movie.' ) );
