@@ -26,4 +26,4 @@ function logMe( message ) {
 	console.log( message );
 }
 
-console.log( inception( 'Box Trolls is a fantastic movie.' ) );
+inception( logMe, 'Box Trolls is a fantastic movie.' );
