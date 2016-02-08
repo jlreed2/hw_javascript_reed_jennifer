@@ -1,7 +1,7 @@
 function howdy ( person, message ) {
-	return person + 'says' + message;
+	console.log( person + ' says ' + message );
 }
-var message = howdy( 'Jenn', 'hello!' );
+howdy( 'Jenn', 'hello!' );
 
 var numba = function( string ) {
 
