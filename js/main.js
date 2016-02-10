@@ -1,7 +1,7 @@
 function howdy ( person, message ) {
-	return person + 'says' + message;
+	console.log( person + ' says ' + message );
 }
-var message = howdy( 'Jenn', 'hello!' );
+howdy( 'Jenn', 'hello!' );
 
 var numba = function( string ) {
 
@@ -14,12 +14,16 @@ var numba = function( string ) {
 	}
 };
 
-string( 7 );
-string( 'seventy' );
-string( 'university' );
+numba( '7' );
+numba( 'seventy' );
+numba( 'university' );
 
 function inception ( callback, value ) {
 	callback( value );
 }
 
-console.log( inception( 'Box Trolls is a fantastic movie.' ) );
+function logMe( message ) {
+	console.log( message );
+}
+
+inception( logMe, 'Box Trolls is a fantastic movie.' );
